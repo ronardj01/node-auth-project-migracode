@@ -1,9 +1,14 @@
 import './App.css';
+import LoginPage from './components/login-register/LoginPage';
+import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   return (
     <div className="App">
-      <h1>Auth-Project-migracode</h1>
+      <div className='login-singin'>
+      <LoginPage/>
+      </div>
+     
     </div>
   );
 }
