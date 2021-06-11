@@ -15,6 +15,10 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
+          <Route exact path="/">
+            <h1>Home</h1>
+          </Route>
+
           <Route path="/login">
             <div className='login-singin'>
               <LoginPage />
