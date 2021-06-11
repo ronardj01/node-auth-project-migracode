@@ -2,6 +2,7 @@ import InputEmail from './units/InputEmail';
 import InputName from './units/InputName';
 import InputPassword from './units/InputPassword';
 import SubmitBtn from './units/SubmitBtn';
+import {Link} from "react-router-dom";
 
 const Register = () => {
   return (
@@ -13,7 +14,10 @@ const Register = () => {
         <InputPassword />
         <SubmitBtn />
       </form>
-      <p>Already have an account? Login</p>
+      <p>
+        Already have an account? 
+        <Link to='/login'> Login</Link>
+      </p>
     </div>
 
   )

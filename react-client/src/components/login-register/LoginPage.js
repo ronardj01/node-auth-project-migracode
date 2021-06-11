@@ -1,6 +1,7 @@
 import InputEmail from './units/InputEmail';
 import InputPassword from './units/InputPassword';
 import SubmitBtn from './units/SubmitBtn';
+import { Link } from 'react-router-dom'
 
 const LoginPage = () => {
   return (
@@ -11,7 +12,10 @@ const LoginPage = () => {
         <InputPassword />
         <SubmitBtn />
       </form>
-      <p>Don't have an account? Sign up</p>
+      <p>
+        Don't have an account?
+        <Link to="/register"> Sign up</Link>
+      </p>
     </div>
 
   )
