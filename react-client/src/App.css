@@ -6,7 +6,7 @@
   width: 50vw;
 }
 
-.login-singin {
+.login-singin, .register {
   display: flex;
   justify-content: center;
 }
