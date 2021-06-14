@@ -8,4 +8,14 @@
     "name": "luisa",
     "email": "luisa@gmail.com",
     "password": "$2b$10$slGTaafZlP2zbbtCau.OEOMdaKT07y.VUaKcw0Dsnl.SPoJqZK4zm"
+}, {
+    "id": 2,
+    "name": "pedro",
+    "email": "pedro@gmail.com",
+    "password": "$2b$10$rvq4o1BldzbfmcehrL9DGugjYfId1jVkuHwruao2.s1hx0fApOdOa"
+}, {
+    "id": 3,
+    "name": "flaminia",
+    "email": "flaminia@gmail.com",
+    "password": "$2b$10$FjtfixOWrJyqRiEhrgK/xeJWBYuCTpypbYYhtwlhrFn5NohpeI0c2"
 }]
