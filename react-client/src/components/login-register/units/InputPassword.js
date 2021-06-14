@@ -1,10 +1,18 @@
-const InputPassword = () => {
-    return(
-        <div class="m-3">
-          <label for="inputPassword" className="form-label">Password</label>
-          <input type='password' className="form-control" id="inputPassword"></input>
-        </div>
-    )
+import { useState } from "react";
+
+const InputPassword = ({password, handlePassword}) => {
+
+  return (
+    <div className="m-3">
+      <label htmlFor="inputPassword" className="form-label">Password</label>
+      <input type='password'
+        className="form-control"
+        id="inputPassword"
+        value={password}
+        onChange={handlePassword}
+      />
+    </div>
+  )
 };
 
 export default InputPassword;

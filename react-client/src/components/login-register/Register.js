@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 
 const Register = () => {
   return (
-    <div className='loginPage card mt-5'>
+    <div className='loginPage card mt-5 shadow p-3 mb-5 bg-body rounded'>
       <h3 className='mt-3'>Register With Us</h3>
       <form>
         <InputName />
