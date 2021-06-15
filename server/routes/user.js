@@ -34,7 +34,7 @@ router.post("/sign-up", async (req, res) => {
 
     // we save the updated array to db.json file by using fs module of node
     
-    await fs.writeFileSync('./database/db.json', JSON.stringify(usersDb));
+    await fs.writeFileSync('./database/db.json', JSON.stringify(usersDb, null, 2));
 
     
     /* Once the user registration is done successfully, we will generate a

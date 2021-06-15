@@ -1,17 +1,15 @@
-import { useState } from "react";
+import CustumeInput from "./CustumeInput";
 
-const InputPassword = ({password, handlePassword}) => {
-
+const InputPassword = ({password, onChange}) => {
+  
   return (
-    <div className="m-3">
-      <label htmlFor="inputPassword" className="form-label">Password</label>
-      <input type='password'
-        className="form-control"
-        id="inputPassword"
-        value={password}
-        onChange={handlePassword}
-      />
-    </div>
+    <CustumeInput 
+    inputValue={password}
+    inputID={'InputPassword'}
+    label={'Password'}
+    inputType={'password'}
+    onChange={onChange}
+    />
   )
 };
 
